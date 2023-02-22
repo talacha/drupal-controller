@@ -1,0 +1,7 @@
+welcome.home:
+ path: '/home'
+ defaults:
+   _controller: '\Drupal\cs_welcome\Controller\WelcomePageController::home'
+   _title: 'Hello World'
+ requirements:
+   _permission: 'access content'

@@ -1,0 +1,4 @@
+name: Drupal Custom Page
+description: This module creates a custom welcome page.
+type: module
+core_version_requirement: ^8 || ^9 || ^10

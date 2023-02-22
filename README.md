@@ -1,2 +1,9 @@
-# drupal-controller
-Sample custom Drupal page showing some key caching concepts.
+# Creating a Basic Drupal Custom Page 
+## Controller Code Sample
+
+This is a very basic Drupal module to explain and build upon.
+
+There are three pieces required to build a custom page controller:
+ - An [info file](https://github.com/talacha/drupal-controller/blob/main/web/modules/custom/cs_welcome/cs_welcome.info.yml "info file").
+ - A [routing file](https://github.com/talacha/drupal-controller/blob/main/web/modules/custom/cs_welcome/cs_welcome.routing.yml "routing file").
+ - And a [contoller](https://github.com/talacha/drupal-controller/blob/main/web/modules/custom/cs_welcome/src/Controller/WelcomePageController.php "controller").
